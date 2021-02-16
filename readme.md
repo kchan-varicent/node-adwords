@@ -1,3 +1,11 @@
+# Symon Notes
+
+## Updating dependencies
+
+After updating a dependency in package.json we'd need to run these commands to make sure that `package-lock.json` & `yarn.lock` files are updated.
+- `npm i` & then `npm - --package-lock-only` (double check the changes in package-lock.json to make sure everything is updated properly)
+- `yarn`
+
 # Node Adwords Api
 
 This is an unofficial Adwords sdk for NodeJS > 6.0. This Api mirrors the official
