@@ -3,9 +3,7 @@
   "version": "202105.0.1",
   "description": "An unofficial - feature complete - Adwords sdk for NodeJS",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha test"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ChrisAlvares/node-adwords.git"
@@ -28,8 +26,5 @@
     "request": "^2.88.0",
     "soap": "^0.36.0",
     "xmlbuilder": "^11.0.0"
-  },
-  "devDependencies": {
-    "mocha": "^7.0.0"
   }
 }
